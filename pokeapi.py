@@ -27,8 +27,5 @@ def search_poke_ability(search_term='', id=1):
     else:
         print('Failure')
         print(f'Error Code: {resp_msg.status_code}, Error Reason: {resp_msg.reason}')
+        return None
 
-
-poke_dict = search_poke_ability(14)
-
-pass
