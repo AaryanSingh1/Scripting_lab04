@@ -14,7 +14,8 @@
             "VariablePresentation": { 
                 "all": "Hide",
                 "protected": "inline"
-            }
+            },
+            "args": ["45"]
         }
     ]
 }
